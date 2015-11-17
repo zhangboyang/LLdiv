@@ -7,5 +7,5 @@ long long division using minus and bit shift operations only
 void ULLdivULL(ULL a, ULL b, ULL *qp, ULL *rp);
 void LLdivLL(LL a, LL b, LL *qp, LL *rp);
 
-a 除数, b 被除数, q 商, r 余数
+a 被除数, b 除数, q 商, r 余数
 

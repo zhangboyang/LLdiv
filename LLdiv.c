@@ -33,8 +33,10 @@ void LLdivLL(LL a, LL b, LL *qp, LL *rp)
     if (rp && rf) *rp = -*rp;
 }
 
+
+
+/* test data */
 LL data[] = {
-//  0x1234567812345678, 0x1234567812345678,
     0, 1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29
     -1, -2, -3, -5, -7, -11, -13, -17, -19, -23, -29,
 
@@ -58,11 +60,13 @@ LL data[] = {
     0x2865e0d75a01f456, 0x292d75ea6fb0e5e8,
     0x36fd4f379934ed15, 0xff8f2d6ea26d7db4,
     0xf9035c37627d8250, 0x87d18d6b2d3cf3ca,
-
 };
 
 int data_size = sizeof(data) / sizeof(data[0]);
 
+
+
+/* test function */
 #define MAKE_TEST_FUNC(TYPE, FMT) \
 void test_ ## TYPE() \
 { \
