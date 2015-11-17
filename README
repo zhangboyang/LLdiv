@@ -1,0 +1,11 @@
+# LLdiv
+
+long long division using minus and bit shift operations only
+
+一个简单的用减法和移位写成的 64 位整数除法函数
+
+void ULLdivULL(ULL a, ULL b, ULL *qp, ULL *rp);
+void LLdivLL(LL a, LL b, LL *qp, LL *rp);
+
+a 除数, b 被除数, q 商, r 余数
+
